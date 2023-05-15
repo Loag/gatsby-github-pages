@@ -1,0 +1,10 @@
+{
+  "name": "gatsby-github-pages",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": []
+    }
+  }
+}

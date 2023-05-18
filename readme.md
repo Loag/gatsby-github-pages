@@ -9,10 +9,10 @@ npm install -g gatsby-cli && npm install gh-pages --save-dev
 ``` bash
 # create new gatsby project
 
-gatsby new PROJECT_NAME
+gatsby new test-project
 
 # start dev 
-cd PROJECT_NAME/
+cd test-project/
 gatsby develop
 
 ```
@@ -22,9 +22,9 @@ gatsby develop
 ``` json
 {
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b main"
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
-  "homepage": "https://yourusername.github.io/yourrepository/"
+  "homepage": "https://loag.github.io/gatsby-github-pages/"
 }
 ```
 

@@ -1,9 +1,0 @@
-{
-  "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b main"
-  },
-  "homepage": "https://loag.github.io/gatsby-github-pages/",
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
-  }
-}
